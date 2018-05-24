@@ -1,0 +1,185 @@
+a=1+2
+
+b=3**5
+c=a+b
+print(a)
+print(b)
+print(c)
+
+#Version One If a is greater than b, assign 3 to a
+a=3
+b=7
+a>b
+
+#Addition
+2567+987564
+
+#Subtraction
+76495783498-387456834
+
+#Multiplication
+456*789
+
+#Division
+7654/4567
+
+#Floor Division
+7654//4567
+
+#Floor Division2
+7654.0/4567
+
+#Floor Division3
+7654/4567.0
+
+#Floor Division4
+7654//4567.0
+
+#We can use this float() function to cast integers as floats
+float(7654)/4567
+
+#Powers
+7**9
+
+#Powers2
+7**0.89
+
+# Order of Operations followed in Python -- PEMDAS 
+# 1. Paranthesis
+# 2. Exponentiation
+# 3. Multiplication
+# 4. Addition
+# 5. Subtraction
+
+(2+45)*2*10**2-89
+
+# Can use parenthesis to specify orders
+(2+10) * (10+3)
+
+a=7
+
+a+a
+
+a=20
+
+# Let's create an object called "a" and assign it the number 5
+a = 5
+
+# Adding the objects
+a+a
+
+# Use object names to keep better track of what's going on in your code!# 
+Income = 650
+Rate = 0.9
+Tax = Income*Rate
+
+Tax
+
+#LEGB Rule
+#L, Local — Names assigned in any way within a function (def or lambda)), and not declared global in that function.
+#E, Enclosing-function locals — Name in the local scope of any and all statically enclosing functions (def or lambda), 
+#from inner to outer.
+#G, Global (module) — Names assigned at the top-level of a module file, 
+#or by executing a global statement in a def within the file.
+#B, Built-in (Python) — Names preassigned in the built-in names module : open,range,SyntaxError,...
+
+def  test1():
+         x = 10
+         print(x)
+test1()# prints x
+type(x)# gives an error as x is not foundin the scope
+
+#The input from console can be triggered with input() function
+A= input ("Please enter the value of a:")
+print(a);
+
+#Types
+a=1
+b=2.0
+c="xyz"
+d=input()
+
+type(a)
+
+type(b)
+
+type(c)
+
+type(d)
+
+#Excercise - Accept 2 numbers from the user and:
+x=input()
+y=input()
+if x>y:
+    print(x:"is greater then y")
+    else:
+        print(y:"is greater then x")
+
+a=max(20, 39)
+#b=min(45, 65)
+
+#Print the biggest number
+a=int(input("Enter a number: "))
+b=int(input("Enter another number: "))
+if(a>b):
+    print("A is bigger than B and the value is", a)
+elif(b>a):
+    print("B is greater than A and the value is", b)
+else:
+    print("Both are same")
+
+#print the difference
+a=int(input("Enter a number: "))
+b=int(input("Enter another number: "))
+(a-b)
+
+#print the difference
+a=int(input("Enter a number: "))
+b=int(input("Enter another number: "))
+if(a>b):
+    print("A is bigger than B and the difference is", a-b)
+else:
+    print("B is greater than A and the difference is", b-a)
+
+#The difference when b is subtracted from a
+#print the difference
+a=int(input("Enter a number: "))
+b=int(input("Enter another number: "))
+(b-a)
+
+#The product of a and b
+a=int(input("Enter a number: "))
+b=int(input("Enter another number: "))
+(a*b)
+
+print('"Hello World! I am trying to use Quotation"')
+
+#The quotient when a is divided by b
+a=float(input("Enter a number: "))
+b=float(input("Enter another number: "))
+print("Quotient Value is: ", a//b)
+
+#The remainder when a is divided by b
+a=int(input("Enter a number: "))
+b=int(input("Enter another number: "))
+print("Remainder: ", a/b)
+
+#The result of log10 a
+import math
+a=10
+print (math.log(a))
+
+#The result of a power b
+a=5
+b=3
+c=a**b
+print("The result of a power b is: ", c)
+
+#swap both the numbers and print both numbers
+a=int(input("Enter a number: ")) 
+b=int(input("Enter another number: "))
+#c = a
+#a = b
+#b = c
+a,b = b,a
+print(a,b)
